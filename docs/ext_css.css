@@ -1,0 +1,147 @@
+/* navbar */
+.navbar-inverse {
+    color: #cdbfe3;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    background-color: #6f5499;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+    background-image: -webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
+    background-image: -o-linear-gradient(top,#563d7c 0,#6f5499 100%);
+    background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+    background-repeat: repeat-x;
+	
+    border-color: #E7E7E7;
+}
+
+/* navbar title */
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #ecdbff;
+}
+
+/* navbar text */
+.navbar-inverse .navbar-text {
+	color: #ecf0f1;
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	/* Margin bottom by footer height */
+	margin-bottom: 40px;
+}
+
+.jumbotron {
+	text-align: center;
+	padding-top: 15px; /* bootstrap default 30px was leaving a lot of space on top */
+}
+
+@media screen and (min-width: 768px) {  /* desktops and tablets */
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 44px; /* bootstrap was writting this font size in this media query as 63px */
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+}
+
+@media screen and (max-width: 768px) {  /* mobiles */
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 2em; /* bootstrap was writting this font size in this media query as 63px */
+}
+.jumbotron .h2, .jumbotron h2 {
+    font-size: 1.5em; /* bootstrap was writting this font size in this media query as 63px */
+}
+.jumbotron p {
+	font-size: 14px;
+}
+}
+
+/* default margin-bottom for .alert class in 20px which was putting lot of space between Chapter XX and its results */
+.ch_results {
+	margin-bottom: 5px;
+}
+
+/* spacing after each chapter's results */
+.results {
+	margin-bottom: 20px;
+}
+
+/* border below every note */
+.note {
+	padding-top: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#upload_container {
+	padding-top: 20px;
+}
+
+.center-tabs  {
+	display: inline-block;
+}
+
+.admin-tabs-container {
+	padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#staff-container, #subjects-container {
+	margin-top: 2px;
+	padding-top: 10px;
+	border-top: 1px solid #e5e5e5;
+	text-align: center;
+}
+
+#add_new_staff_container, #add_new_subj_container {
+	margin: 10px 0;
+	padding: 10px 0 30px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+	color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.nav-pills > li > a, .nav-pills > li > a:focus {
+	color: #6f5499;
+}
+
+img {
+	width: 60%;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 10px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
