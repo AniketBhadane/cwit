@@ -1,4 +1,8 @@
 # cwit
 Notes Sharing and Control System for CWIT
 
-Created by [Aniket Bhadane](https://in.linkedin.com/in/aniketbhadane)
+![Demo gif](/demo.gif?raw=true "Demo GIF")
+
+Copyright © Aniket Bhadane 2017
+aniketbhadane93@gmail.com
+[LinkedIn](https://in.linkedin.com/in/aniketbhadane)
